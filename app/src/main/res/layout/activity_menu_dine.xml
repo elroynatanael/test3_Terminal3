@@ -148,7 +148,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="16dp"
                         android:layout_marginTop="6dp"
-                        android:text="Fastfood"
+                        android:text="Fast food"
                         android:textColor="#9A9A9A"
                         android:textSize="16sp" />
 
@@ -233,7 +233,7 @@
         android:layout_height="150dp"
         android:layout_marginEnd="24dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/bglistbawah"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -246,7 +246,7 @@
             android:layout_width="120dp"
             android:layout_height="130dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:scaleType="fitXY"
             android:src="@drawable/aw" />
 
@@ -275,7 +275,7 @@
                 android:lineSpacingExtra="4dp"
                 android:text="Fast food"
                 android:textColor="#9A9A9A"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
 
         </LinearLayout>
@@ -283,8 +283,9 @@
 
     </LinearLayout>
 
-
+//BakmiGM
     <LinearLayout
+        android:id="@+id/linearbakmi"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginEnd="24dp"
@@ -298,10 +299,226 @@
 
 
         <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="28dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bakmigm" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="Bakmi GM"
+                android:textColor="#015a80"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Noodle Shop"
+                android:textColor="#9A9A9A"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+//Breadtalk
+    <LinearLayout
+        android:id="@+id/linearbread"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bglistbawah"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearbakmi">
+
+
+        <ImageView
             android:layout_width="120dp"
             android:layout_height="130dp"
             android:layout_marginLeft="16dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/breadtalk" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="Breadtalk"
+                android:textColor="#015a80"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Bakery"
+                android:textColor="#9A9A9A"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+//KOI
+    <LinearLayout
+        android:id="@+id/linearkoi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bglistbawah"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearbread">
+
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/koi" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="KOI"
+                android:textColor="#015a80"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Bubble tea shop"
+                android:textColor="#9A9A9A"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+//MARUGAME
+    <LinearLayout
+        android:id="@+id/linearmarugame"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bglistbawah"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearkoi">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/marugame" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="Marugame Udon"
+                android:textColor="#015a80"
+                android:textSize="21sp" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Japanese restaurant"
+                android:textColor="#9A9A9A"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+//ROTIO
+    <LinearLayout
+        android:id="@+id/linearotio"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bglistbawah"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearmarugame">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"
             android:src="@drawable/rotio" />
 
@@ -330,7 +547,64 @@
                 android:lineSpacingExtra="4dp"
                 android:text="Bakery"
                 android:textColor="#9A9A9A"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+//
+
+
+//SATE
+    <LinearLayout
+        android:id="@+id/linearsate"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bglistbawah"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearotio">
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sate" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:text="Sate Khas Senayan"
+                android:textColor="#015a80"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Satay restaurant"
+                android:textColor="#9A9A9A"
+                android:textSize="16sp" />
 
 
         </LinearLayout>

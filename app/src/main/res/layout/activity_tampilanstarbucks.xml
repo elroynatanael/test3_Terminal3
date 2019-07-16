@@ -21,7 +21,7 @@
             android:id="@+id/view"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:background="@drawable/fotostarbucks" />
+            android:background="@drawable/fotostarbucks"/>
 
 
         <LinearLayout
@@ -82,13 +82,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:lineSpacingExtra="4dp"
-            android:text="Starbucks serves every kind of coffee that you need, but not just coffee. Starbucks also serves some bakery and sandwiches. "
+            android:text="Starbucks serves every kind of coffee that you need, but not just coffee. Starbucks also serves some bakery and sandwiches."
             android:textColor="#9A9A9A"
             android:textSize="18sp"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout"
             tools:layout_editor_absoluteX="0dp" />
 
         <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
@@ -99,6 +100,14 @@
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="open"
+            android:text="Navigate Me"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:layout_editor_absoluteX="0dp" />
 
 
     </android.support.constraint.ConstraintLayout>

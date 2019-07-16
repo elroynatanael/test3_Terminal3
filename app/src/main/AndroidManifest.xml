@@ -18,7 +18,24 @@
         </activity>
         <activity android:name=".MenuDine" />
         <activity android:name=".menushop" />
-        <activity android:name=".tampilanstarbucks"></activity>
+        <activity android:name=".tampilanstarbucks" />
+        <activity android:name=".Importantnumbers" />
+        <activity android:name=".tampilanburgerking" />
+        <activity android:name=".tampilankrispy" />
+        <activity android:name=".tampilanaw" />
+        <activity android:name=".tampilanbakmi" />
+        <activity android:name=".tampilankoi" />
+        <activity android:name=".tampilanmarugame" />
+        <activity android:name=".tampilanrotio" />
+        <activity android:name=".tampilansate" />
+        <activity android:name=".tampilanbatik" />
+        <activity android:name=".tampilancoach" />
+        <activity android:name=".tampilaniport" />
+        <activity android:name=".tampilanalexandre" />
+        <activity android:name=".tampilanalfa" />
+        <activity android:name=".tampilankimia" />
+        <activity android:name=".tampilanperiplus" />
+        <activity android:name=".MenuHotel" />
     </application>
 
 </manifest>
